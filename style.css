@@ -51,13 +51,17 @@ p{
     flex-wrap: wrap;
     justify-content: space-around;
    text-align: center;
+
 }
+
 
 .cover-col{
     flex-basis: 50%;
     min-width: 300px;
     
 }
+
+
 
 .cover-col img{
     max-width: 100%;
@@ -72,6 +76,7 @@ p{
 }
 
 .btn{
+    
     display: inline-block;
     background: rgb(136, 71, 71);
     color:black;
@@ -81,7 +86,7 @@ p{
     font-weight: bold;
     transition: background 0.5s;
     transition: transform 1s;
-   
+    margin-bottom: 25%;
    
 }
 .btn:hover
@@ -96,6 +101,8 @@ p{
     background: linear-gradient(-45deg,#e4fbff,#b8b5ff, #ec5789, #c15050);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
+    max-height: 100vh;
+    overflow: hidden;
   
 }
 
@@ -112,7 +119,7 @@ p{
 }
 
 .header .row{
-    margin-top: 17px;
+    margin-top: 0px;
 }
  
 .category{
