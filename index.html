@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pharma ⁺</title>
+    <title>Modern Walk | Online Shoping Website </title>
     <link rel="icon" href="images/logopic.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,16 +11,19 @@
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="./fullpage.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
         <!----------------------------         Header section    ------------------>
-        <section class="page1"></section>
-        <div class="header">
-            <div class="container">
+        
+        <div class="header" >
+            <div class="container"
+            data-aos="fade-in"
+            data-aos-duration="1500">
                 <div class="navbar">
                     <div class="logo"> 
-                        <img src="images/logopic.png" width="50px" height="50px">
+                        <a href="/index.html"> <img src="images/logopic.png" width="90px" height="90px" id="logo" ></a>
                     </div>
                     <nav>
                         <ul>
@@ -31,7 +34,7 @@
                             <li><a href=""> Account </a></li>
                         </ul>
                     </nav>
-                    <img src="images/cart.png" height="35px" width="35px">
+                    <img src="images/cart.png" height="35px" width="35px" id="cart">
                 </div>
             
                 <div class="row">
@@ -47,24 +50,33 @@
             </div>
 
         </div>
-    </section>
+   
         <!--------  category  -------------->
-        <section class="page2">
-        <div class="category">
+        
+        <div 
+        class="category" >
             <div class="small-container">
-                <div class="row">
-                    <div class="category-col">
-                        <img src="images/product-tshirt.jpg" >
+                <div class="row"
+                data-aos="fade-up"
+                data-aos-duration="8s">
+                    <div class="category-col"
+                    data-aos="fade-up-left"
+                    data-aos-duration="1000">
+                        <img src="images/product-tshirt.jpg" id="product">
+                        <h4 id="name"> Tshirt </h4>
+                    </div>
+                    <div class="category-col"
+                    data-aos="fade-up-left"
+                    data-aos-duration="1800">
+                        <img src="images/product-shoes.jpg"id="product" >
+                        <h4 id="name"> Shoes </h4>
             
                     </div>
-                    <div class="category-col">
-                        <img src="images/product-tshirt.jpg" >
-            
-            
-                    </div>
-                    <div class="category-col">
-                        <img src="images/product-tshirt.jpg" >
-            
+                    <div class="category-col"
+                    data-aos="fade-up-left"
+                    data-aos-duration="2600">
+                        <img src="images/product-tshirt.jpg" id="product" >
+                        <h4 id="name"> Tshirt </h4>
                     </div>
             
                 </div>
@@ -76,16 +88,18 @@
         <!-------------------  Featured Product   ----------------------->
      <div class="small-container">
         <h2 class="title">Featured Products</h2>
-        <div class="row">
+        <div class="row"
+        data-aos="fade-down"
+        data-aos-duration="2500">
             <div class="product-col">
                 <img src="images/product-tshirt.jpg" >
                 <h4>Black T-shirt</h4>
-                <div class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
+                <div class="rating"  id="0">
+                    <i class="star" data-rate="1"></i>
+                    <i class="star active" data-rate="2"></i>
+                    <i class="star" data-rate="3"></i>
+                    <i class="star" data-rate="4"></i>
+                    <i class="star" data-rate="5"></i>
                     
                 </div>
                 <p>$5.5</p>
@@ -94,12 +108,25 @@
             <div class="product-col">
                 <img src="images/product-tshirt.jpg" >
                 <h4>Black T-shirt</h4>
-                <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                    <i class="far fa-star"></i>
+                <div class="rating2"  id="05">
+                    <i class="star" data-rate="1"></i>
+                    <i class="star active" data-rate="2"></i>
+                    <i class="star" data-rate="3"></i>
+                    <i class="star" data-rate="4"></i>
+                    <i class="star" data-rate="5"></i>
+                </div>
+                <p>$5.5</p>
+            </div>
+            <div class="product-col">
+                <img src="images/product-tshirt.jpg" >
+                <h4>Black T-shirt</h4>
+                <div class="rating3"  id="0025">
+                    <i class="star" data-rate="1"></i>
+                    <i class="star active" data-rate="2"></i>
+                    <i class="star" data-rate="3"></i>
+                    <i class="star" data-rate="4"></i>
+                    <i class="star" data-rate="5"></i>
+                    
                     
                 </div>
                 <p>$5.5</p>
@@ -107,32 +134,21 @@
             <div class="product-col">
                 <img src="images/product-tshirt.jpg" >
                 <h4>Black T-shirt</h4>
-                <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
-                    
-                </div>
-                <p>$5.5</p>
-            </div>
-            <div class="product-col">
-                <img src="images/product-tshirt.jpg" >
-                <h4>Black T-shirt</h4>
-                <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
+                <div class="rating4" id="005">
+                    <i class="star" data-rate="1"></i>
+                    <i class="star active" data-rate="2"></i>
+                    <i class="star" data-rate="3"></i>
+                    <i class="star" data-rate="4"></i>
+                    <i class="star" data-rate="5"></i>
                     
                 </div>
                 <p>$5.5</p>
             </div>
         </div>
     </div>
-</section>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="app.js"></script>
 
 </body>
 </html>
