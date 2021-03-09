@@ -7,6 +7,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+
+
+
 .navbar{
     display: flex;
     align-items: center;
@@ -26,17 +30,30 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 10px;
+    transition: transform .25s;
 }
 
-a{
-   text-decoration: none;
-   color: #26001b;
-   
+nav ul li:hover{
+    transform: scale(1.05);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #26001b; 
+    transition: color 0.25s;
+}
+
+
+a:hover {
+  color: whitesmoke;
+  
 }
 
 p{
     color: #26001b;
 }
+
+
 
 .container{
     max-width: 1300px;
@@ -76,7 +93,7 @@ p{
 }
 
 .btn{
-    
+    text-decoration: none;
     display: inline-block;
     background: rgb(136, 71, 71);
     color:black;
@@ -103,7 +120,17 @@ p{
 	animation: gradient 10s ease infinite;
     max-height: 100vh;
     overflow: hidden;
-  
+  height: 100vh;
+}
+
+.page2{
+    max-height: 100vh;
+    
+}
+.page2 img{
+    max-width: 100%;
+    height: auto;
+    
 }
 
 @keyframes gradient {
@@ -210,3 +237,4 @@ p{
     transform: scale(1.025);
     box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.15);
 }
+
