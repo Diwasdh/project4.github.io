@@ -17,6 +17,7 @@ html{
     display: flex;
     align-items: center;
     padding: 15px;
+    height: 15vh;
 }
 
 nav{
@@ -94,6 +95,8 @@ p{
     padding-right: 10px;
 }
 
+
+
 .row{
     display: flex;
     align-items: center;
@@ -103,11 +106,15 @@ p{
 
 }
 
+.container .row{
+    height: 85vh;
+    max-width: 100%;
+}
+
 
 .cover-col{
     flex-basis: 50%;
-    min-width: 300px;
-    
+    min-width: 300px; 
 }
 
 
@@ -121,7 +128,7 @@ p{
 .cover-col h1{
     font-size: 45px;
     line-height: 65px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .btn{
@@ -202,6 +209,10 @@ p{
     padding: 10px;
     max-width: 100%;
     display: b;
+}
+
+.category .category-col{
+   overflow-wrap: normal;
 }
 
 .small-container
@@ -320,6 +331,71 @@ p{
     content: "\2606";
 }
 
+.exclusive-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    max-height: 100vh;
+    overflow-wrap: hidden;
+    margin: auto;
+    padding: 50px;
+
+}
+
+.text-exclusive-col p{
+    font-size: 15px;
+  color: rgba(175, 53, 59, 0.9);
+  padding-top: 1px;
+
+}
+.exclusive-containe .row{
+    position: relative;
+    
+    
+}
+
+.text-exclusive-col{
+    flex-basis: 45%;
+    padding: 10px;
+    min-width: 220px;
+    margin-bottom: 25px;
+}
+
+
+.image-exclusive-col{
+    flex-basis: 55%;
+    padding: 10px;
+    min-width: 220px;
+    margin-bottom: 15px;
+}
+
+.image-exclusive-col img{
+    width: 100%;
+    
+}
+
+.exclusive-wrapper{
+    background: linear-gradient(-45deg,#161415,#241F22, #A4ABB8, #E9F0EF);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+    max-height: 75vh;
+    overflow: hidden;
+    height: auto;
+}
+
+.text-exclusive-col h2{
+    padding-top: 15%;
+    color: #7B341F;
+}
+.line{
+    height: 2px;
+    background-color: black;
+}
+.footer{
+    height: 25vh;
+    background: rgb(169,167,203);
+background: radial-gradient(circle, rgba(169,167,203,1) 15%, rgba(163,163,201,1) 33%, rgba(155,193,201,1) 71%);
+}
 
 
 
