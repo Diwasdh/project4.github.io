@@ -407,6 +407,7 @@ p{
     height: 25vh;
     background-image: url("images/footer-bg.jpg");
     background-repeat: no-repeat;
+    
     width: 100%;
     
     align-content: center;
@@ -417,5 +418,6 @@ p{
     display: relative;
     float: right;    
     margin-top: 25px;
-    margin-right: 5px;
+    margin-right: 10px;
+    background: rgba(145, 138, 138,0.6);
 } 
