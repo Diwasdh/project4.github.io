@@ -371,12 +371,20 @@ p{
     padding: 10px;
     min-width: 220px;
     margin-bottom: 15px;
+    
 }
+
 
 .image-exclusive-col img{
     width: 100%;
-    
+    height: auto;
 }
+
+@media (max-width:600px) {
+    .exclusive-container .image-exclusive-col #exclusive-img {
+      display: none;
+    }
+  }
 
 .exclusive-wrapper{
     background: linear-gradient(-45deg,#161415,#241F22, #A4ABB8, #E9F0EF);

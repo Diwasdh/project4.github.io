@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none;
+    }
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -99,4 +103,8 @@ p{
     padding-left: 10px;
     padding-right: 10px;
 }
+
+
+/*    Header Code    */
+
 
