@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none;
+    }
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -393,9 +397,20 @@ p{
 }
 .footer{
     height: 25vh;
-    background: rgb(169,167,203);
-background: radial-gradient(circle, rgba(169,167,203,1) 15%, rgba(163,163,201,1) 33%, rgba(155,193,201,1) 71%);
+    background-image: url("images/footer-bg.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    align-content: center;
+    align-items: center;
 }
+
+.footer img{
+    display: relative;
+    float: right;    
+    margin-top: 25px;
+    margin-right: 5px;
+} 
 
 
 
