@@ -166,15 +166,7 @@ p{
   height: 100vh;
 }
 
-.page2{
-    max-height: 100vh;
-    
-}
-.page2 img{
-    max-width: 100%;
-    
-    
-}
+
 
 @keyframes gradient {
 	0% {
@@ -393,6 +385,10 @@ p{
     max-height: 75vh;
     overflow: hidden;
     height: auto;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
 }
 
 .text-exclusive-col h2{
@@ -403,13 +399,15 @@ p{
     height: 2px;
     background-color: black;
 }
+
+/*  Footer    */
 .footer{
     height: 25vh;
     background-image: url("images/footer-bg.jpg");
     background-repeat: no-repeat;
-    
+    background-size: 100% 100%;
     width: 100%;
-    
+    overflow: hidden;
     align-content: center;
     align-items: center;
 }
@@ -418,6 +416,96 @@ p{
     display: relative;
     float: right;    
     margin-top: 25px;
-    margin-right: 10px;
+    margin-right: 3%;
     background: rgba(145, 138, 138,0.6);
 } 
+.logos{
+    display: inline-block;
+    font-size: 40px;
+    position: relative;
+    height: 10vh;
+    width: 15vh;
+    float: right;
+    top: 35px;
+    right: 1%;
+    opacity: 1.5;
+    margin-top: 30px;
+}
+.logos h3{
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 0;
+    text-align: left;
+}
+
+
+#facebook{
+    color: #4267B2;
+    transition: transform 0.5s;
+    padding-right: 5px;
+    
+}
+#facebook:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#instagram{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: transform 0.5s;
+    
+}
+#instagram:hover{
+    padding-right: 5px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.address{
+display: inline-block;
+position: relative;
+height: 20vh;
+overflow: hidden;
+top: 45px;
+left :5%;
+}
+.address :hover{
+    cursor: default;
+}
+
+.address h3{
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 0;
+    text-align: left;
+}
+
+.contacts{
+    display: inline-block;
+    position: relative;
+    height: 20vh;
+    overflow: hidden;
+    top: 45px;
+    left :15%;
+}
+
+.contacts :hover{
+    cursor: default;
+}
+
+.contacts h3{
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 0;
+    text-align: left;
+}
+
+
